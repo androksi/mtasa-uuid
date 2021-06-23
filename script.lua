@@ -13,5 +13,3 @@ function new()
         string.sub(uuidString, 17, 20) .. "-" ..
         string.sub(uuidString, 21, 32)
 end
-
-print(new())
